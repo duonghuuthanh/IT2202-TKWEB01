@@ -1,0 +1,126 @@
+:root {
+    --mycolor: cadetblue;
+}
+
+nav {
+    background-color: var(--mycolor);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: darkblue;
+    color:white;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: brown;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    right: 8px;
+}
+
+.submenu::after {
+    content: "";
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent brown transparent;
+    position: absolute;
+    bottom: 100%;
+    right: 35%;
+}
+
+.sub:hover .submenu {
+    display: block;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(darkblue, white, blue);
+}
+
+.subject {
+    color: blue;
+    text-shadow: 3px 4px 3px gold;
+    font-size: 3rem;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.forum {
+    background-color: aquamarine;
+    padding: 0.5rem;
+    border-bottom: 1px solid blue;
+}
+
+.form-subject {
+    background-color: darkblue;
+    color: white;
+    margin-bottom: 0;
+    padding: 1rem;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.forum:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ads {
+    margin-top: 0.2rem;
+}
+
+.ads > div {
+    width: 9%;
+    background: linear-gradient(blue, darkblue);
+    color: white;
+    position: fixed;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.ads .left {
+    left: 0.5%;
+    
+}
+
+.ads .right {
+    right: 0.5%;
+}
+
+footer {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    margin-top: 0.5rem;
+}

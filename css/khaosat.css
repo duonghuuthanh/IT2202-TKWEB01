@@ -1,0 +1,36 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+}
+
+table.main {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+thead img {
+    width: 100%;
+}
+
+h1.subject {
+    color: blue;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+table.f {
+    width:100%;
+    background-color: #0a6fa3;
+}
+
+table.f tr td:last-child {
+    text-align: right;
+}

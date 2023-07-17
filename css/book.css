@@ -1,0 +1,159 @@
+@font-face {
+    font-family: mysubject;
+    src: url(../fonts/VNI-Viet\ tay.ttf);
+}
+
+header {
+    background: linear-gradient(lightblue, white, blue);
+    padding: 0.2rem;
+}
+
+header h1 {
+    font-family: mysubject;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    justify-content: space-between;
+}
+
+.icon {
+    width: 1rem;
+}
+
+.subject {
+    width: 7rem;
+}
+
+.ads > div {
+    border: 1px dashed darkblue;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+/* MENU */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    border-right: 1px solid darkblue;
+}
+
+ul.menu > li > a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* MAIN */
+
+main.flex {
+    align-items: flex-start !important;
+}
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 80%;
+}
+
+.v-menu {
+    flex-direction: column;
+}
+
+.v-menu > li {
+    width: 100%;
+}
+
+.v-menu > li > a {
+    border-right: none !important;
+    background: linear-gradient(lightblue, white);
+}
+
+.v-menu > li > a:hover {
+    background: darkblue;
+}
+
+/* BOOKs */
+
+.books {
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.book img {
+    width: 100%;
+}
+
+.book img:hover {
+    cursor: cell;
+}
+
+@keyframes dropdown {
+    from {
+        bottom: 100%;
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+.des {
+    background-color: rgb(0, 0, 255, 0.6);
+    position: absolute;   
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    overflow: hidden;
+}
+.book:hover .des {
+    animation: dropdown 1s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@keyframes moveright {
+    from {
+        margin-right: -50px;
+    }
+    to {
+        margin-right: 0;
+    }
+}
+
+ul.social {
+    background-color: blanchedalmond;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    margin-right: -50px;
+}
+
+ul.social:hover {
+    animation: moveright 1s;
+}
