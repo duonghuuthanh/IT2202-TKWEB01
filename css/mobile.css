@@ -1,0 +1,33 @@
+.product {
+    width: 100%;
+}
+
+ul.menu {
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    z-index: 999;
+   
+}
+
+.show {
+    right: -35px;
+    top: 0;
+    display: block;
+    
+}
+
+.show-nav {
+    right: unset;
+    
+}
+
+
+ul.menu > li {
+    border-right: none;
+}

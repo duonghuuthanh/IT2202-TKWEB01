@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "name": "iPhone 13",
+    "price": 24000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "Galaxy 14",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "Galaxy S7",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "iPhone 14",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 1,
+    "name": "Galaxy S8",
+    "price": 24000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "Galaxy 14",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "iPad 14",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "Galaxy S9",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 1,
+    "name": "Galaxy S23 Ultra",
+    "price": 24000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "Galaxy 14",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "iPad 14",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}, {
+    "id": 2,
+    "name": "Apple Watch S6",
+    "price": 25000000,
+    "image": "images/iphone13promax.jpeg"
+}]
