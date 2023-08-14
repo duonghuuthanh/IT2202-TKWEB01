@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bai04.js"></script>
+    <style>
+        button {
+            width: 100px;
+            height: 30px;
+            border: 1px solid gray;
+        }
+
+        .buttons {
+            margin-top: 5px;
+        }
+
+        svg {
+            width: 400px;
+            height: 300px;
+            background-color: gray;
+        }
+
+        .shape > svg:not(:first-child) {
+            display: none;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex > * {
+            padding: 5px;
+        }
+    </style>
+    <script>
+       // $(".button").on()
+    </script>
+</head>
+<body>
+    <div class="flex">
+        <div>
+            <div>
+                <input type="text" name="" id="colorId" placeholder="Nhập tên màu..." />
+                <input type="button" value="Thêm" id="btnThem" />
+            </div>
+
+            <ul id="colorSuggest"></ul>
+
+            <div class="buttons">
+                <div><button style="background-color:red"></button></div>
+                <div><button style="background-color:green"></button></div>
+                <div><button style="background-color:blue"></button></div>
+            </div>
+        </div>
+        <div>
+            <div class="rdo">
+                <input type="radio" name="shape" rel="#circle" checked />Circle
+                <input type="radio" name="shape" rel="#ellipse" />Ellipse
+                <input type="radio" name="shape" rel="#rect" />Rectangle
+            </div>
+            <div class="shape">
+                <svg id="circle">
+                <circle cx="200" cy="150" r="100" stroke="black"
+                stroke-width="4" fill="black" />
+                </svg>
+                <svg id="rect">
+                <rect x="100" y="50" width="200" height="200"
+                stroke="black" stroke-width="4" fill="black" />
+                </svg>
+                <svg id="ellipse">
+                <ellipse cx="200" cy="150" rx="150" ry="80"
+                stroke="black" stroke-width="4" fill="black" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
